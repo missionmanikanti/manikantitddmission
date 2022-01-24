@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+    <groups>
+    	<run>
+    		<include name="ArithmeticOperations"/>
+    	</run>
+    </groups>
+    <classes>
+      <class name="practicetestng.TestngDummy13"/>
+    </classes>
+  </test> 
+  <test name="Test2">
+    <groups>
+    	<run>
+    		<include name="StringsManipulations"/>
+    	</run>
+    </groups>
+    <classes>
+      <class name="practicetestng.TestngDummy13"/>
+    </classes>
+  </test> 
+</suite> 

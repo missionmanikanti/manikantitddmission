@@ -1,0 +1,15 @@
+chrome,magnitiait,valid,Magnitia@06,valid
+chrome,,blank,N/A,N/A
+chrome,magnitianonit,invalid,N/A,N/A
+chrome,magnitiait,valid,,blank
+chrome,magnitiait,valid,Magnitia@05,invalid
+firefox,magnitiait,valid,Magnitia@06,valid
+firefox,,blank,N/A,N/A
+firefox,magnitianonit,invalid,N/A,N/A
+firefox,magnitiait,valid,,blank
+firefox,magnitiait,valid,Magnitia@05,invalid
+edge,magnitiait,valid,Magnitia@06,valid
+edge,,blank,N/A,N/A
+edge,magnitianonit,invalid,N/A,N/A
+edge,magnitiait,valid,,blank
+edge,magnitiait,valid,Magnitia@05,invalid

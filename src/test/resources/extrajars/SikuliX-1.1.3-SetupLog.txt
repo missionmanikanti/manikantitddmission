@@ -1,0 +1,85 @@
+[debug (1/8/21 12:34:07 PM)] Debug: setLogFile: E:\batch251\1abdulkalampro\src\test\resources\SikuliX-1.1.3-SetupLog.txt
+[debug (1/8/21 12:34:07 PM)] RunSetup: ... starting with no args given
+[debug (1/8/21 12:34:07 PM)] RunSetup: Setup: 1.1.3 2018-07-11_08:19 in folder:
+E:\batch251\1abdulkalampro\src\test\resources
+[debug (1/8/21 12:34:07 PM)] RunSetup: RunningSystem: Windows 6.1
+[debug (1/8/21 12:34:07 PM)] RunSetup: parent of jar/classes: E:\batch251\1abdulkalampro\src\test\resources
+[debug (1/8/21 12:34:07 PM)] RunSetup: RunningJava: Java 8 (amd64) 1.8.0_144-b01
+[debug (1/8/21 12:34:07 PM)] init user preferences
+[debug (1/8/21 12:34:58 PM)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+E:\batch251\1abdulkalampro\src\test\resources
+--- Native support libraries for Windows (sikulixlibs...)
+--- Package 2 ---
+sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar (Java API)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (1/8/21 12:35:03 PM)] RunSetup: 
+popAsk: --------------------
+You have for Windows native libs
+C:\Users\Mindq-pc\AppData\Roaming\Sikulix\SikulixDownloads\sikulixlibswin-1.1.1.jar
+Click YES, if you want to use this for setup processing
+... or click NO, to ignore it and download a fresh copy
+--------------------
+[debug (1/8/21 12:35:04 PM)] RunSetup: Copied from Downloads: sikulixlibswin
+[debug (1/8/21 12:35:04 PM)] FileManager: resetFolder:
+E:\batch251\1abdulkalampro\src\test\resources\SetupStuff\sikulixlibs\windows
+jar:file:/E:/batch251/1abdulkalampro/src/test/resources/sikulixlibswin.jar
+[debug (1/8/21 12:35:04 PM)] RunSetup: 
+popAsk: --------------------
+You have for Java API package
+C:\Users\Mindq-pc\AppData\Roaming\Sikulix\SikulixDownloads_201807110819\sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar
+Click YES, if you want to use this for setup processing
+... or click NO, to ignore it and download a fresh copy
+--------------------
+[debug (1/8/21 12:35:06 PM)] RunSetup: Copied from Downloads: sikulixapi
+[debug (1/8/21 12:35:06 PM)] RunSetup: Download ended
+[debug (1/8/21 12:35:06 PM)] RunSetup: Downloads for selected options:
+sikulixlibswin-1.1.1.jar sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar 
+[debug (1/8/21 12:35:06 PM)] RunSetup: adding needed stuff to sikulixapi.jar
+[debug (1/8/21 12:35:06 PM)] FileManager: buildJar: sikulixtemp.jar
+[debug (1/8/21 12:35:06 PM)] FileManager: buildJar: adding: sikulixapi.jar
+[debug (1/8/21 12:35:09 PM)] FileManager: buildJar: adding: sikulixlibswin.jar
+[debug (1/8/21 12:35:11 PM)] FileManager: buildJar: adding sikulixcontent at sikulixlibswin
+[debug (1/8/21 12:35:11 PM)] FileManager: buildJar: completed
+[debug (1/8/21 12:35:11 PM)] RunSetup: renaming sikulixtemp.jar to target jar: sikulixapi.jar
+[debug (1/8/21 12:35:12 PM)] RunSetup: Trying to run functional test: JAVA-API 
+[debug (1/8/21 12:35:17 PM)] RunTimeSETUP: addToClasspath:
+file:/E:/batch251/1abdulkalampro/src/test/resources/sikulixapi.jar
+[debug (1/8/21 12:35:17 PM)] RunSetup: trying to run org.sikuli.script.Sikulix.testSetup()
+[debug (1/8/21 12:35:17 PM)] RunSetup: class found: class org.sikuli.script.Sikulix
+[debug (1/8/21 12:35:17 PM)] RunSetup: getMethod: public static boolean org.sikuli.script.Sikulix.testSetup()
+[debug (1/8/21 12:35:17 PM)] RunSetup: invoke: public static boolean org.sikuli.script.Sikulix.testSetup()
+[debug (1/8/21 12:35:17 PM)] RunTimeSETUP: exists libs folder at: C:\Users\Mindq-pc\AppData\Roaming\Sikulix\SikulixLibs_201807110819
+[debug (1/8/21 12:35:17 PM)] RunTimeSETUP: addToWindowsSystemPath: added to systempath:
+C:\Users\Mindq-pc\AppData\Roaming\Sikulix\SikulixLibs_201807110819
+[debug (1/8/21 12:35:17 PM)] RunTimeSETUP: checkJavaUsrPath: added to ClassLoader.usrPaths
+[debug (1/8/21 12:35:17 PM)] RunTimeSETUP: loadLib: VisionProxy.dll
+[debug (1/8/21 12:35:17 PM)] Mouse: init start
+[debug (1/8/21 12:35:18 PM)] Mouse: init end
+[debug (1/8/21 12:35:18 PM)] Screen: initScreens: multi monitor mouse check
+[debug (1/8/21 12:35:18 PM)] Screen: *** checking: S(0)[0,0 1360x768] center: (680, 384) --- OK
+[debug (1/8/21 12:35:18 PM)] Screen: *** checking: S(1)[1360,0 1360x768] center: (2040, 384) --- OK
+[debug (1/8/21 12:35:18 PM)] Image: BufferedImage: (100, 100)
+[debug (1/8/21 12:35:18 PM)] Finder: Image: __BufferedImage__: (100x100)
+[debug (1/8/21 12:35:18 PM)] Sikulix: testSetup: Finder setup with image worked
+[debug (1/8/21 12:35:18 PM)] FileManager: tempfile create:
+C:\Users\Mindq-pc\AppData\Local\Temp\Sikulix_2021409757\sikuli-7340116376030997180.png
+[debug (1/8/21 12:35:18 PM)] Image: loaded: C:/Users/Mindq-pc/AppData/Local/Temp/Sikulix_2021409757/sikuli-7340116376030997180.png (file:/C:/Users/Mindq-pc/AppData/Local/Temp/Sikulix_2021409757/sikuli-7340116376030997180.png)
+[debug (1/8/21 12:35:18 PM)] Image: cached: C:/Users/Mindq-pc/AppData/Local/Temp/Sikulix_2021409757/sikuli-7340116376030997180.png (29 KB) (# 1 KB 29 -- 0 % of 64 MB)
+[debug (1/8/21 12:35:18 PM)] Sikulix: testSetup: Finder setup with image file worked
+[debug (1/8/21 12:35:18 PM)] Image: reused: C:/Users/Mindq-pc/AppData/Local/Temp/Sikulix_2021409757/sikuli-7340116376030997180.png (file:/C:/Users/Mindq-pc/AppData/Local/Temp/Sikulix_2021409757/sikuli-7340116376030997180.png)
+[debug (1/8/21 12:35:18 PM)] Region: wait: waiting 3.0 secs for C:/Users/Mindq-pc/AppData/Local/Temp/Sikulix_2021409757/sikuli-7340116376030997180.png to appear in S(0)[0,0 1360x768]
+[debug (1/8/21 12:35:18 PM)] Region: wait: C:/Users/Mindq-pc/AppData/Local/Temp/Sikulix_2021409757/sikuli-7340116376030997180.png appeared (M[0,0 100x100]@S(S(0)[0,0 1360x768]) S:1.00 C:50,50 [155 msec])
+[debug (1/8/21 12:35:18 PM)] Sikulix: testSetup: Screen.find(imagefile) worked
+[debug (1/8/21 12:35:18 PM)] Image: reused: C:/Users/Mindq-pc/AppData/Local/Temp/Sikulix_2021409757/sikuli-7340116376030997180.png (file:/C:/Users/Mindq-pc/AppData/Local/Temp/Sikulix_2021409757/sikuli-7340116376030997180.png)
+[debug (1/8/21 12:35:18 PM)] Region: wait: waiting 3.0 secs for C:/Users/Mindq-pc/AppData/Local/Temp/Sikulix_2021409757/sikuli-7340116376030997180.png to appear in S(0)[0,0 1360x768]
+[debug (1/8/21 12:35:18 PM)] Region: wait: C:/Users/Mindq-pc/AppData/Local/Temp/Sikulix_2021409757/sikuli-7340116376030997180.png appeared (M[0,0 100x100]@S(S(0)[0,0 1360x768]) S:1.00 C:50,50 [120 msec])
+[debug (1/8/21 12:35:18 PM)] Sikulix: testSetup: repeated Screen.find(imagefile) worked
+[debug (1/8/21 12:35:56 PM)] Sikulix: testSetup: Finder.find: worked
+[debug (1/8/21 12:36:01 PM)] RunSetup: ... SikuliX Setup seems to have ended successfully ;-)
+[debug (1/8/21 12:36:01 PM)] RunTimeSETUP: final cleanup
+[debug (1/8/21 12:36:01 PM)] FileManager: deleteFileOrFolder:
+C:\Users\Mindq-pc\AppData\Local\Temp\Sikulix_2021409757
